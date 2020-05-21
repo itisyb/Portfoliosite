@@ -465,7 +465,12 @@ body .sm-clean a:active,
     font-weight: 700;
 } */
 
-.sm-clean link{
+.sm-clean a{
+    color: black;
+    font-weight: 200;
+}
+
+.sm-clean link a{
     color: black;
     font-weight: 700;
 }
