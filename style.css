@@ -428,18 +428,15 @@ body .site-wrapper .sm-clean a  {
     padding: 15px;
 }
 
-/* .sm-clean a, 
-.sm-clean a:hover
- {
+.sm-clean a, 
+.sm-clean a:hover, 
+.sm-clean a:focus, 
+.sm-clean a:active {
     font-size: 16px;
     font-weight: 600;
-    color: red;
+    color: #aeaeae;
     transition: color .3s ease, background-color .3s ease;
     padding: 15px;
-} */
-.sm-clean a:focus{
-    color:#000;
-    font-weight: 600;
 }
 
 .sm-clean ul a, 
@@ -457,23 +454,13 @@ body .site-wrapper .sm-clean a  {
     background-color: transparent;        
     padding: 15px 0;
 }
-/* .sm-clean .link,
+
 body .sm-clean a:hover, 
-body .sm-clean a:active,
-.sm-clean a:focus{
-    color: black;
-    font-weight: 700;
-} */
-
-.sm-clean a{
-    color: black;
-    font-weight: 200;
-}
-
-.sm-clean a.link, .sm-clean a:hover{
+body .sm-clean li a.current {
     color: black;
     font-weight: 700;
 }
+
 .sm-clean li  {
     margin-right: 10px;
 }
