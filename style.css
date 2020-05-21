@@ -434,7 +434,7 @@ body .site-wrapper .sm-clean a  {
 .sm-clean a:active {
     font-size: 16px;
     font-weight: 600;
-    color: #000;
+    color: #aeaeae;
     transition: color .3s ease, background-color .3s ease;
     padding: 15px;
 }
