@@ -1753,6 +1753,10 @@ footer ul  {
 	
 	.portfolio-item-wrapper {
 		margin-top: 35px;
+    }
+    
+    .single-portfolio h1{
+		padding-top:130px;
 	}
 
     .one_half,
