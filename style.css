@@ -428,11 +428,18 @@ body .site-wrapper .sm-clean a  {
     padding: 15px;
 }
 
-.sm-clean a, 
+.sm-clean a
+ {
+    font-size: 16px;
+    font-weight: 600;
+    color: #aeaeae;
+    transition: color .3s ease, background-color .3s ease;
+    padding: 15px;
+}
 .sm-clean a:hover, 
-.sm-clean a:active {
-    color: black;
-    font-weight: 700;
+.sm-clean a:active{
+    color:#000;
+    font-weight: 600;
 }
 
 .sm-clean ul a, 
@@ -449,11 +456,6 @@ body .site-wrapper .sm-clean a  {
 .sm-clean {
     background-color: transparent;        
     padding: 15px 0;
-}
-
-body .sm-clean a:hover, 
-body .sm-clean .active{
-    
 }
 
 .sm-clean li  {
