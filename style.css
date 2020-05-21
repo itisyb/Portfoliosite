@@ -465,6 +465,10 @@ body .sm-clean a:active,
     font-weight: 700;
 } */
 
+.sm-clean link{
+    color: black;
+    font-weight: 700;
+}
 .sm-clean li  {
     margin-right: 10px;
 }
