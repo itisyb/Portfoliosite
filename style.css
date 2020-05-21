@@ -428,7 +428,7 @@ body .site-wrapper .sm-clean a  {
     padding: 15px;
 }
 
-.sm-clean a, 
+/* .sm-clean a, 
 .sm-clean a:hover
  {
     font-size: 16px;
@@ -436,7 +436,7 @@ body .site-wrapper .sm-clean a  {
     color: red;
     transition: color .3s ease, background-color .3s ease;
     padding: 15px;
-}
+} */
 .sm-clean a:focus{
     color:#000;
     font-weight: 600;
@@ -457,7 +457,7 @@ body .site-wrapper .sm-clean a  {
     background-color: transparent;        
     padding: 15px 0;
 }
-
+.sm-clean .link,
 body .sm-clean a:hover, 
 body .sm-clean a:active,
 .sm-clean a:focus{
