@@ -459,7 +459,7 @@ body .site-wrapper .sm-clean a  {
 }
 
 body .sm-clean a:hover, 
-body .sm-clean li a.current {
+body .sm-clean li a:active{
     color: black;
     font-weight: 700;
 }
