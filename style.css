@@ -459,10 +459,11 @@ body .site-wrapper .sm-clean a  {
 }
 
 body .sm-clean a:hover, 
-body .sm-clean li a.current {
+body .sm-clean li a:focus {
     color: black;
     font-weight: 700;
 }
+
 
 .sm-clean li  {
     margin-right: 10px;
