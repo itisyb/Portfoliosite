@@ -415,7 +415,7 @@ img.title-logo {
 
 body .site-wrapper .sm-clean a  {
     cursor: pointer;
-    color: #000;
+    color: #939393;
     transition: color .3s ease;
 }
 
@@ -456,7 +456,8 @@ body .site-wrapper .sm-clean a  {
 
 body .sm-clean a:hover, 
 body .sm-clean li a.current {
-    color: #939393;
+    color: black;
+    font-weight: 600;
 }
 
 .sm-clean li  {
