@@ -470,7 +470,7 @@ body .sm-clean a:active,
     font-weight: 200;
 }
 
-.link, .sm-clean a:hover{
+.a.link, .sm-clean a:hover{
     color: black;
     font-weight: 700;
 }
