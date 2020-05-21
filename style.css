@@ -433,7 +433,7 @@ body .site-wrapper .sm-clean a  {
 .sm-clean a:focus, 
 .sm-clean a:active {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     color: #aeaeae;
     transition: color .3s ease, background-color .3s ease;
     padding: 15px;
@@ -1752,10 +1752,10 @@ footer ul  {
     }
 	
 	.portfolio-item-wrapper {
+		
 		margin-top: 35px;
-    }
-    
-    .single-portfolio h1{
+	}
+	.single-portfolio h1{
 		padding-top:130px;
 	}
 
@@ -1838,11 +1838,7 @@ footer ul  {
 
 @media screen and (max-width: 750px) {
 
-    .blog-item-holder .entry-holder {
-        max-width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
     .single .nav-previous,
     .single .nav-next {
