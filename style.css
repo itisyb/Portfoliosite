@@ -457,13 +457,13 @@ body .site-wrapper .sm-clean a  {
     background-color: transparent;        
     padding: 15px 0;
 }
-.sm-clean .link,
+/* .sm-clean .link,
 body .sm-clean a:hover, 
 body .sm-clean a:active,
 .sm-clean a:focus{
     color: black;
     font-weight: 700;
-}
+} */
 
 .sm-clean li  {
     margin-right: 10px;
