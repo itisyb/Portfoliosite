@@ -431,15 +431,8 @@ body .site-wrapper .sm-clean a  {
 .sm-clean a, 
 .sm-clean a:hover, 
 .sm-clean a:active {
-    font-size: 16px;
-    font-weight: 600;
-    color: #aeaeae;
-    transition: color .3s ease, background-color .3s ease;
-    padding: 15px;
-}
-.sm-clean a:focus{
-    color:#000;
-    font-weight: 600;
+    color: black;
+    font-weight: 700;
 }
 
 .sm-clean ul a, 
@@ -460,8 +453,7 @@ body .site-wrapper .sm-clean a  {
 
 body .sm-clean a:hover, 
 body .sm-clean .active{
-    color: black;
-    font-weight: 700;
+    
 }
 
 .sm-clean li  {
