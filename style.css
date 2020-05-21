@@ -429,8 +429,8 @@ body .site-wrapper .sm-clean a  {
 }
 
 .sm-clean a, 
-.sm-clean a:hover, 
-.sm-clean a:active {
+.sm-clean a:hover
+ {
     font-size: 16px;
     font-weight: 600;
     color: red;
