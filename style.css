@@ -466,7 +466,7 @@ body .sm-clean a:active,
 } */
 
 .sm-clean a{
-    color: black;
+    color: red;
     font-weight: 200;
 }
 
