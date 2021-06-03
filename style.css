@@ -1,4 +1,4 @@
-/* Generated on: Thu Jun 03 2021 06:47:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jun 03 2021 08:06:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3209,7 +3209,7 @@
      }
    
      .circle-blur-top-right-2.safari {
-       opacity: 0.7;
+       opacity: 0.2;
        -webkit-filter: blur(68px);
        filter: blur(68px);
      }
@@ -3234,7 +3234,7 @@
        width: 400px;
        height: 400px;
        background-image: linear-gradient(285deg, #ff7448 29%, #ff4848 58%, #6248ff 80%);
-       opacity: 0.7;
+       opacity: 0.2;
        -webkit-filter: blur(68px);
        filter: blur(68px);
      }
@@ -3254,7 +3254,7 @@
      }
    
      .circle-blur-bottom-right.safari {
-       opacity: 0.7;
+       opacity: 0.2;
        -webkit-filter: blur(68px);
        filter: blur(68px);
      }
@@ -3312,7 +3312,7 @@
      }
    
      .circle-blur-top-left-2.safari {
-       opacity: 0.7;
+       opacity: 0.2;
        -webkit-filter: blur(68px);
        filter: blur(68px);
      }
@@ -3715,7 +3715,7 @@
      }
    
      .circle-blur-top-right-2.safari {
-       opacity: 0.9;
+       opacity: 0.2;
        -webkit-filter: blur(64px);
        filter: blur(64px);
      }
@@ -3743,7 +3743,7 @@
      .circle-blur-top-left {
        width: 320px;
        height: 320px;
-       opacity: 0.9;
+       opacity: 0.2;
        -webkit-filter: blur(68px);
        filter: blur(68px);
      }
@@ -3760,7 +3760,7 @@
      }
    
      .circle-blur-bottom-right.safari {
-       opacity: 0.9;
+       opacity: 0.2;
        -webkit-filter: blur(64px);
        filter: blur(64px);
      }
@@ -3788,7 +3788,7 @@
      }
    
      .circle-blur-top-left-2.safari {
-       opacity: 0.9;
+       opacity: 0.2;
        -webkit-filter: blur(64px);
        filter: blur(64px);
      }
@@ -4057,6 +4057,10 @@
        height: 280px;
      }
    
+     .circle-blur-top-right-2.safari {
+       opacity: 0.2;
+     }
+   
      .headi {
        margin-right: 0px;
        margin-bottom: 12px;
@@ -4085,6 +4089,10 @@
        right: -20%;
        width: 280px;
        height: 280px;
+     }
+   
+     .circle-blur-top-left-2.safari {
+       opacity: 0.3;
      }
    
      .random-fact.adam-fact-1 {
