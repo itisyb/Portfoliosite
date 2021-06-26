@@ -6251,9 +6251,9 @@ p {
     height: 400px;
   }
 
-  .project-spec-tab-link,.project-spec-figma-wrap {
-  display: none;
-}
+  .w-tabs {
+    display: none;
+  }
 
   .figma-embed-wrapper {
     display: none;
