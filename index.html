@@ -735,7 +735,6 @@
           <div class="project-spec-wrapper margin-l">
             <div class="project-spec-top margin-m">
               <div class="project-title-wrap">
-                <
                 <h5 class="headinglink">
                   <a
                     href="https://portico.vc"
@@ -1328,8 +1327,10 @@
         $(".w-tab-link").removeClass("w--current");
         $(".w-tab-pane").removeClass("w--tab-active");
         $(".w-tab-link:nth-child(2)").addClass("w--current");
-        $("#Our-Work").remove();
+        // $("#Our-Work").remove();
 
+        $(".w-tabs").remove();
+        $(".figma-embed-wrapper").remove();
         // The viewport is less than 768 pixels wide
       } else {
         // The viewport is at least 768 pixels wide
