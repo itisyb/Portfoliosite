@@ -52,6 +52,7 @@
             (n.className += t + "touch");
       })(window, document);
     </script>
+
     <link
       href="https://uploads-ssl.webflow.com/60b7dbb236642413cb3128d5/60b8763ac78551c17c520244_yb-32-favicon.png"
       rel="shortcut icon"
@@ -103,6 +104,16 @@
       fbq("init", "913776032498523");
       fbq("track", "PageView");
     </script>
+    <script>
+      if (window.matchMedia("(max-width: 767px)").matches) {
+        $("#Our-Work").remove();
+
+        // The viewport is less than 768 pixels wide
+      } else {
+        // The viewport is at least 768 pixels wide
+        console.log("This is a tablet or desktop.");
+      }
+    </script>
     <noscript>
       <img
         height="1"
@@ -112,11 +123,6 @@
       />
     </noscript>
     <!-- End Facebook Pixel Code -->
-    <style>
-      .pre-loader {
-        display: flex;
-      }
-    </style>
   </head>
   <body class="body">
     <div class="fixed-cta-container">
@@ -1326,5 +1332,17 @@
     <!--[if lte IE 9
       ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
     ><![endif]-->
+    <script>
+      if (window.matchMedia("(max-width: 767px)").matches) {
+        $(".w-tab-link").removeClass("w--current");
+        $(".w-tab-pane").removeClass("w--tab-active");
+        $(".w-tab-link:nth-child(2)").addClass("w--current");
+
+        // The viewport is less than 768 pixels wide
+      } else {
+        // The viewport is at least 768 pixels wide
+        console.log("This is a tablet or desktop.");
+      }
+    </script>
   </body>
 </html>
